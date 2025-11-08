@@ -1,18 +1,24 @@
+import { Link } from 'react-router-dom';
+
+
 function PcNavbar() {
   return (
     <>
       <div className="top-navbar-area d-lg-blcok d-sm-none">
         <div>
-          <a href="#">Store</a>
+          <Link to="/store">Store</Link>
         </div>
         <div>
-          <a href="#">Cards</a>
+          <Link to="/card">Cards</Link>
         </div>
         <div>
-          <a href="#">Orders</a>
+          <Link to="/order">Orders</Link>
         </div>
         <div>
-          <a href="#">Contact Us</a>
+          <Link to="/about-us">About Us</Link>
+        </div>
+        <div>
+          <Link to="/contact-us">Contact Us</Link>
         </div>
       </div>
     </>

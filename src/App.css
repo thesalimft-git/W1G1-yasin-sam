@@ -1,4 +1,8 @@
-
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
 
 /* mobile */
 @media only screen and (max-width:720px) {
@@ -156,4 +160,31 @@ footer {
 
 .p-5 {
   padding: 10px;
+}
+
+
+.form-control {
+  width: 95%;
+  margin: 5px 1px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 7px;
+  padding: 7px;
+  font-size: 0.8rem;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.btn {
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.btn-blue {
+  background-color: blue;
+  color: white
 }
