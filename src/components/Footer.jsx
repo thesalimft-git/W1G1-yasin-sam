@@ -11,7 +11,8 @@ export default function Footer() {
                         <hr />
                         <div>
                             <p>
-                                Email: sample@gmail.com
+                                Email: 
+                                <a href="mailto:sample@gmail.com">sample@gmail.com</a>
                             </p>
                             <p>
                                 Tell: +98-933-3333-212
@@ -29,16 +30,19 @@ export default function Footer() {
                         <hr />
                         <div>
                             <div>
-                                <a href="#">Store</a>
+                                <a href="/store">Store</a>
                             </div>
                             <div>
-                                <a href="#">Cards</a>
+                                <a href="/card">Cards</a>
                             </div>
                             <div>
-                                <a href="#">Orders</a>
+                                <a href="/order">Orders</a>
                             </div>
                             <div>
-                                <a href="#">Contact Us</a>
+                                <a href="/contact-us">Contact Us</a>
+                            </div>
+                            <div>
+                                <a href="/about-us">About Us</a>
                             </div>
                         </div>
                     </div>

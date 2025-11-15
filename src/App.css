@@ -57,6 +57,7 @@
 }
 
 body {
+  font-family: Tahoma, Helvetica, Arial, sans-serif;
   margin: 0px;
   padding: 0px;
 }
@@ -123,7 +124,14 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: start;
+}
+
+.item-center {
   align-items: center;
+}
+
+.item-start {
+  align-items: start;
 }
 
 .influencer-area {
@@ -156,7 +164,18 @@ a {
 
 footer {
   margin-bottom: 100px;
+  margin-top: 20vh;
 }
+
+footer p {
+  margin: 8px 5px;
+}
+
+footer a {
+  margin: 2px 5px;
+  display: inline-block;
+}
+
 
 .p-5 {
   padding: 10px;
@@ -187,4 +206,31 @@ footer {
 .btn-blue {
   background-color: blue;
   color: white
+}
+
+.product-card img {
+  width: 15vw;
+  min-width: 150px;
+}
+
+.product-card-img-area {
+  text-align: center;
+}
+
+.product-card-img-area p {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.product-card-title {
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin: 0px;
+}
+
+
+.card-page {
+  width: 90%;
+  margin: 100px auto;
 }

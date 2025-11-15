@@ -1,7 +1,15 @@
+import ProductCard from "../components/ProductCard"
+
 export default function CardsPage() {
   return (
-    <>
-    <div>CardsPage</div>
-    </>
+    <div className="card-page">
+      <div>
+        <div>
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+        </div>
+      </div>
+    </div>
   )
 }
