@@ -9,9 +9,11 @@
   .d-sm-block {
     visibility: visible;
   }
+
   .d-sm-none {
     visibility: hidden;
   }
+
   .col-sm-2 {
     display: grid;
     grid-template-columns: auto auto;
@@ -23,6 +25,9 @@
     grid-template-columns: auto;
     column-gap: 10px;
   }
+  .m-sm-1{
+margin: 10px;
+  }
 }
 
 
@@ -31,23 +36,29 @@
 
 /* pc */
 @media only screen and (min-width:721px) {
-    .d-lg-none {
-      visibility: hidden;
-    }
-    .d-lg-block {
-      visibility: visible;
-    }
-    .col-lg-4 {
-      display: grid;
-      grid-template-columns: auto auto auto auto;
-      column-gap: 10px;
-    }
+  .d-lg-none {
+    visibility: hidden;
+  }
 
-    .col-lg-2 {
-      display: grid;
-      grid-template-columns: auto auto;
-      column-gap: 10px;
-    }
+  .d-lg-block {
+    visibility: visible;
+  }
+
+  .col-lg-4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+  }
+
+  .col-lg-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+  }
+
+  .m-lg-5{
+    margin: 50px;
+  }
 }
 
 .col-2 {
@@ -59,6 +70,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  font-family: Tahoma;
 }
 
 a {
@@ -67,13 +79,14 @@ a {
 }
 
 .top-navbar-area {
+  flex-wrap: wrap;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.top-navbar-area>div>a {  
+.top-navbar-area>div>a {
   display: inline-block;
   margin: 10px 20px;
   font-weight: bold;
@@ -89,10 +102,10 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: rgb(1, 1, 139);  
+  background-color: rgb(1, 1, 139);
 }
 
-.mobile-navbar-area>div>a {  
+.mobile-navbar-area>div>a {
   display: inline-block;
   margin: 10px 20px;
   font-weight: bold;
@@ -123,7 +136,14 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: start;
-  align-items: center;
+
+}
+.item-center {
+    align-items: center;
+}
+
+.item-start {
+  align-items: start;
 }
 
 .influencer-area {
@@ -151,12 +171,23 @@ a {
 }
 
 .bg-green {
-  background-color: green;  
+  background-color: green;
 }
 
 footer {
   margin-bottom: 100px;
+  margin-top: 30vh;
 }
+
+footer p {
+  margin: 5 5;
+}
+
+footer a {
+  margin: 5px 5px;
+  display: inline-block;
+}
+
 
 .p-5 {
   padding: 10px;
@@ -187,4 +218,35 @@ footer {
 .btn-blue {
   background-color: blue;
   color: white
+}
+
+.produckt-card img {
+  width: 10vw;
+  min-width: 150px;
+}
+
+.produckt-card-img-area {
+  text-align: center;
+
+}
+
+.produckt-card-img-area p {
+  color: red;
+  font-weight: 700;
+}
+
+.produckt-card-tetle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  
+}
+
+.card-page {
+  width: 90%;
+  margin: 50px auto;
+
+}
+
+.mobile-navbar-area i {
+  font-size: 1.4rem;
 }
