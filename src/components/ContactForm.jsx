@@ -3,7 +3,7 @@
 export default function ContactForm() {
   return (
     <div>
-        <form action="">
+        {/* <form action="">
             <div>
                 <label className="form-label" htmlFor="fullname">Fullname</label>
                 <input className="form-control" type="text" id="fullname" name="fullname" placeholder="john due" />
@@ -19,7 +19,7 @@ export default function ContactForm() {
             <div>
                 <button className="btn btn-blue" type="submit">Submit</button>
             </div>
-        </form>
+        </form> */}
     </div>
   )
 }
